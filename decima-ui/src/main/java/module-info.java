@@ -9,6 +9,7 @@ module decima.ui {
     requires decima.model;
     requires decima.platform.ui;
     requires decima.platform;
+    requires decima.help;
     requires info.picocli;
     requires java.desktop;
     requires java.management;
