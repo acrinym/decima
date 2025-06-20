@@ -27,7 +27,7 @@ Click on the latest workflow run and download the artifact from the `Artifacts` 
 ### Building
 
 Open your favorite terminal app and execute the following commands in the specified order:
-1. Make sure you have **Java 24** installed. We recommend using [Adoptium](https://adoptium.net/temurin/releases/?arch=x64&version=17&package=jdk)
+1. Make sure you have **Java 24** installed. We recommend using [Adoptium](https://adoptium.net/temurin/releases/?arch=x64&version=24&package=jdk)
 2. Make sure you have **Git** installed
 3. Open the terminal and execute the following commands:
    1. `git clone https://github.com/ShadelessFox/decima`
