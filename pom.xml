@@ -24,6 +24,7 @@
         <module>decima-ext-texture-viewer</module>
         <module>decima-model</module>
         <module>decima-ui</module>
+        <module>decima-help</module>
         <module>platform-model</module>
         <module>platform-ui</module>
     </modules>

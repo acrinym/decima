@@ -28,6 +28,10 @@
             <groupId>info.picocli</groupId>
             <artifactId>picocli</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.shade</groupId>
+            <artifactId>decima-help</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

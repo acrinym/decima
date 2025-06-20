@@ -1,6 +1,7 @@
 package com.shade.decima.ui.menu.menus;
 
 import com.shade.decima.ui.Application;
+import com.shade.decima.ui.help.HelpViewer;
 import com.shade.decima.ui.updater.UpdateService;
 import com.shade.platform.ui.menus.*;
 import com.shade.platform.ui.menus.Menu;
@@ -9,9 +10,6 @@ import com.shade.platform.ui.util.UIUtils;
 import com.shade.util.NotNull;
 
 import javax.swing.*;
-import java.awt.*;
-import java.io.IOException;
-import java.net.URI;
 import java.text.MessageFormat;
 import java.time.ZoneOffset;
 
@@ -23,11 +21,7 @@ public final class HelpMenu extends Menu {
     public static class HelpItem extends MenuItem {
         @Override
         public void perform(@NotNull MenuItemContext ctx) {
-            try {
-                Desktop.getDesktop().browse(URI.create("https://github.com/ShadelessFox/decima/wiki"));
-            } catch (IOException e) {
-                UIUtils.showErrorDialog(e, "Unable to open wiki page");
-            }
+            HelpViewer.showViewer();
         }
     }
 
