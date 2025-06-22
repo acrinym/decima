@@ -19,6 +19,11 @@ Decima Workshop is an open-source modding tool for [games](#supported-games) pow
 2. Unzip the downloaded archive and launch using `decima.exe` on Windows or `bin/decima` on Linux
 3. For further steps, [check out the wiki](https://github.com/ShadelessFox/decima/wiki/Getting-started)
 
+### Help
+
+Decima Workshop ships with an offline copy of the wiki. Press **F1** or select
+<kbd>Help</kbd> → <kbd>Help</kbd> in the menu bar to open the built‑in viewer.
+
 #### Nightly builds
 
 If you want to try the latest features and improvements, you can download the latest build from the [actions page](https://github.com/ShadelessFox/decima/actions).
@@ -27,7 +32,7 @@ Click on the latest workflow run and download the artifact from the `Artifacts` 
 ### Building
 
 Open your favorite terminal app and execute the following commands in the specified order:
-1. Make sure you have **Java 24** installed. We recommend using [Adoptium](https://adoptium.net/temurin/releases/?arch=x64&version=17&package=jdk)
+1. Make sure you have **Java 24** installed. We recommend using [Adoptium](https://adoptium.net/temurin/releases/?arch=x64&version=24&package=jdk)
 2. Make sure you have **Git** installed
 3. Open the terminal and execute the following commands:
    1. `git clone https://github.com/ShadelessFox/decima`
