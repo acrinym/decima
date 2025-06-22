@@ -11,6 +11,10 @@ import com.shade.util.NotNull;
 import javax.swing.*;
 import java.io.IOException;
 
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+import java.io.IOException;
+
 import static com.shade.decima.ui.menu.MenuConstants.*;
 
 @MenuItemRegistration(parent = BAR_TEXTURE_VIEWER_BOTTOM_ID, name = "Import Texture\u2026", icon = "Action.importIcon", group = BAR_TEXTURE_VIEWER_BOTTOM_GROUP_GENERAL, order = 2000)
