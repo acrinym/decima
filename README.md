@@ -19,6 +19,11 @@ Decima Workshop is an open-source modding tool for [games](#supported-games) pow
 2. Unzip the downloaded archive and launch using `decima.exe` on Windows or `bin/decima` on Linux
 3. For further steps, [check out the wiki](https://github.com/ShadelessFox/decima/wiki/Getting-started)
 
+### Help
+
+Decima Workshop ships with an offline copy of the wiki. Press **F1** or select
+<kbd>Help</kbd> → <kbd>Help</kbd> in the menu bar to open the built‑in viewer.
+
 #### Nightly builds
 
 If you want to try the latest features and improvements, you can download the latest build from the [actions page](https://github.com/ShadelessFox/decima/actions).
